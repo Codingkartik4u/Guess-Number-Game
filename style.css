@@ -1,0 +1,45 @@
+body,html{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:orchid;
+}
+.box{
+    padding: 100px;
+    border-style: solid;
+    border-color:purple;
+    background-color:lightpink;
+    border-radius: 20px;
+    text-align: center;
+}
+input{
+    width:150px;
+    height: 35px;
+    background-color:plum;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+button{
+    height: 35px;
+    width:100px;
+    border-radius: 15px;
+    background-color: violet;
+    cursor: pointer;
+    border-style: solid;
+    border-color: purple;
+    
+}
+button:hover{
+    transform: scale(1.1);
+}
+::placeholder{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
